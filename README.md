@@ -20,6 +20,11 @@ Installing postgres
 - Leave the port number to be at `5432`
 - pgAdmin comes with it, whoo!
 
+Get `virtualenv` and `virtualenvwrapper`
+- Run `pip install virtualenv virtualenvwrapper`. These are helpers to isolate our python environments.
+- Run `mkvirtualenv cs2102`. We are creating an environment called `cs2102`
+- Run `workon cs2102`. This command will allow our current session to use the targeted python environment, `cs2102` to be exact.
+
 Installing project dependencies
 - Run `pip install -r requirements.txt`
 - Should not see any errors. Fix them if you see any of them. Most likely postgres related
