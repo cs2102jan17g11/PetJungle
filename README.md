@@ -15,12 +15,14 @@ Clone this repo
 - `git clone https://github.com/cs2102jan17g11/PetJungle.git` to a folder of your liking, be sure to `cd` to that folder first!
 
 Installing postgres
-- TBD
+- Get it [here](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads#windows)
+- I recommend setting the password to `postgres` so that you dont forget it.
+- Leave the port number to be at `5432`
+- pgAdmin comes with it, whoo!
 
 Installing project dependencies
 - Run `pip install -r requirements.txt`
 - Should not see any errors. Fix them if you see any of them. Most likely postgres related
-
 
 
 # Running the server
