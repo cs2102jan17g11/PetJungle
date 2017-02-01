@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block body %}
+{% for pet in pets %}
+<div class="container">
+    <div class="row">
+        <div class="panel panel-default">
+            {{ pet.name }}
+            <div class="panel-body">
+                Awesomeness!
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+{% endblock %}
