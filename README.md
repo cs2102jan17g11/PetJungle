@@ -5,7 +5,7 @@
 ## For windows:
 Getting python 2.7
 - Install python 2.7.13 from [here](https://www.python.org/downloads/)
-- Run Windows PowerShell, it should be already pre-installed with every Windows 10??
+- Run Windows PowerShell, it should come pre-installed with every Windows 10
 - Download [this gist](https://gist.github.com/KenLSM/4322c05132a7d1fa17483fd1fabaa516#file-helloworld-py) as `helloworld.py` and run `python helloworld.py`. You should see `Hello World` printed out on your powershell.
 
 Updating your pip
@@ -32,7 +32,7 @@ Installing project dependencies
 
 # Running the server
 - Run `make`
-- Server should be on localhost:8000
+- Server will be on `localhost:8000`. Go to your browser and go to that website.
 
 # Running the console
 - Run `make shell`
